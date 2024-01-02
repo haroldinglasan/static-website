@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+	<html lang = "en">
+
+		<head>
+			<meta charset = "UTF-8">
+			<meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+			<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+			<title> DONUT.COM </title>
+			<link rel = "stylesheet" href = "index.css">
+			<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">	
+		</head>
+	
+	<body>
+
+		<header class = "header">
+
+			<a href = "#" class = "logo"> <i class = "fas fa-shopping-basket"></i> DONUT </a>
+			
+			<nav class = "navbar">
+				<a href = "#home"> 			Home 		 </a>
+				<a href = "#products"> 		Products 	 </a>
+				<a href = "#reservation"> 	Reservation  </a>
+			</nav>
+
+			<div class = "icons">
+				<div class = "fas fa-bars" 	 		id = "menu-btn"></div>
+				<div class = "fas fa-search" 		id = "search-btn"></div>
+				<div class = "fas fa-shopping-cart" id = "cart-btn"></div>
+			</div>
+			
+			<form action = "" class = "search-form">
+				<input type = "search" id = "search-box" placeholder = "search here">
+				<label for = "search-box" class = "fas fa-search"></label>
+			</form>
+			
+			
+			<div class = "shopping-cart">
+			
+				<div class = "box">
+				
+					<i class = "fas fa-trash"></i>
+					<img src = "cart-img-1.jpg" alt = "">
+						<div class = "content">
+							<h3>Chocolate Nuts</h3>
+							<span class = "price">₱150</span>
+							<span class = "quantity">qty : 10 </span>
+						</div>
+					</img>
+				</div>
+				
+				<div class = "box">
+				
+					<i class = "fas fa-trash"></i>
+					<img src = "cart-img-2.jpg" alt = "">
+						<div class = "content">
+							<h3>Choco Sprinklers</h3>
+							<span class = "price"> ₱150 </span>
+							<span class = "quantity"> qty: 10 </span>
+						</div>
+					</img>
+				</div>
+				
+				<div class = "box">
+				
+					<i class = "fas fa-trash"></i>
+					<img src = "cart-img-3.jpg" alt = "" >
+						<div class = "content">
+							<h3> Choco Graham </h3>
+							<span class = "price"> ₱150 </span>
+							<span class = "quantity"> qty : 10 </span>
+						</div>
+					</img>
+				</div>
+				
+				<div class = "total"> Total: ₱450 </div>
+				<a href = "#" class = "btn" id = "checkoutBtn">Check Out</a>
+				
+			</div>
+			
+			
+			
+		</header>
+
+
+		<section class = "home" id = "home">
+		
+			<div class = "content">
+				<h3> Lil'Crave <span> Donut </span> Paradise </h3>
+				<p>Indulge your taste buds in a world of delightful sweetness with our signature mini donuts! Each bite-sized masterpiece is a perfect balance of fluffy perfection. At Lil' Crave Donut Paradise, we take pride in crafting these little wonders that pack a punch of joy in every sprinkle and glaze. Join us on a journey of miniature indulgence – because sometimes, the sweetest things come in the smallest packages!</p>
+			</div>
+		
+		</section>
+
+		<section class = "products" id = "products">
+
+			<h1 class = "heading"> Assorted <span> Donut </span></h1>
+			
+				<div class="box-container">
+				
+
+					<div class = "box">
+					
+						<img src = "cart-img-5.jpg" alt = "">
+						<h3> Assorted Flavor Donut </h3>						
+					</div>
+		
+					<div class = "box">
+						<img src = "cart-img-6.jpg" alt = "">
+						<h3> Assorted Flavor Donut </h3>
+					</div>
+					
+					<div class = "box">
+						<img src = "cart-img-7.jpg" alt="">
+						<h3> Assorted Flavor Donut</h3>
+					</div>
+					
+					
+					<div class = "box">
+						<img src = "cart-img-8.jpg" alt="">
+					</div>
+					
+					
+					<div class = "box">
+						<img src = "cart-img-9.jpg" alt="">
+					</div>
+					
+					<div class = "box">
+						<img src = "cart-img-10.jpg" alt="">
+					</div>
+			
+				</div>
+	
+		</section>			
+		
+		<section class = "reservation" id = "reservation">
+			
+			<h1 class = "heading"> For Reservation</h1>
+			
+				<div class = "box-container">
+					
+					<div class = "box">
+					
+						<img src = "reservation-img-1.jpg" alt = "">
+						<a href = "#" class = "btn" id = "reserveBtn"> Reserve Now </a>
+					
+					</div>
+				
+				</div>
+				
+		</section>
+			
+			<div class = "popup">
+				
+				<div class = "close-btn"> &times; </div>
+				
+					<div class = "form">
+					
+						<h2> Pre-Order </h2>
+						
+							<div class = "form-element">
+
+								<label for = "name"> Name </label>
+								<input type = "text" id = "name-id" placeholder = "Name">
+							
+							</div>
+							
+							
+							<div class = "form-element">
+
+								<label for = "lastname"> Lastname </label>
+								<input type = "text" id = "lastname-id" placeholder = "Lastname">
+							
+							</div>
+							
+							<div class = "form-element">
+
+								<label for = "email"> E-mail </label>
+								<input type = "text" id = "email-id" placeholder = "Enter E-mail">
+							
+							</div>
+							
+							<div class = "form-element">
+
+								<label for = "phone-number"> Contact No.</label>
+								<input type = "text" id = "phone-number" placeholder = "Phone No.">
+							
+							</div>
+							
+							<div class = "form-element">
+
+								<label for = "address"> Location </label>
+								<input type = "text" id = "address-id" placeholder = "Home Address">
+							
+							</div>
+							
+							<div class = "form-element">
+
+								<label for = "flavor"> Donut Flavor </label>
+								<input type = "text" id = "flavor-id" placeholder = "Donut Flavor">
+							
+							</div>
+							
+							
+							<div class = "form-element">
+
+								<label for = "quantity"> Quantity </label>
+								<input type = "text" id = "quantity-id" placeholder = "">
+								<p> 1 Box 6 pcs Big size Donut </p>
+							
+							</div>
+							
+								<button> CONFIRM </button>
+							
+							</div>
+							
+					</div>
+					
+			</div>
+			
+
+		<script src="index.js"></script>
+
+	</body>
